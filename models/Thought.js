@@ -32,7 +32,8 @@ const ThoughtSchema = new Schema ({
     thoughtText: {
         type: String,
         required: true,
-        validate: [({ length }) => length >= 280, 'Text must be between 1 to 280 characters.']
+        minLength: 1,
+        maxLength: 280
     },
     createAt: {
         type: Date,
@@ -58,6 +59,6 @@ ThoughtSchema.virtual('reactionCount').get(function() {
     return this.reactions.length;
   });
 
-const Thought = model('Thought', UserSchema);
+const Thought = model('Thought', ThoughtSchema);
 
 module.exports = Thought;
