@@ -31,9 +31,9 @@ router
     .get(getThoughtById)
     .put(updateThought);
 
-// /api/thoughts/<userId>/<thoughtId>/<replyId>
+// /api/thoughts/<userId>/<thoughtId>/<reactionId>
 router
-    .route('/:userId/:thoughtId/:replyId')
+    .route('/:userId/:thoughtId/:reactionId')
     .delete(removeReaction);
 
 module.exports = router;
