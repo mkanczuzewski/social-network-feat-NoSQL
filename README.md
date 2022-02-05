@@ -19,7 +19,8 @@ First, install google chrome, gitbash, visual studio code if you wish to review 
 
 ## Usage
 This project is used to demonstraite a backend for a social networking website. 
-Walkthrough Video - 
+Walkthrough Video Part 1 - https://watch.screencastify.com/v/xoYZVNdmKxn0df6s3EbU </ br>
+Walkthrough Video Part 2 - 
 
 
 ## License
