@@ -18,9 +18,9 @@ This is a project that uses node.js, express.js, Mongoose and MongoDB (a noSQL d
 First, install google chrome, gitbash, visual studio code if you wish to review the code and MongoDB Second, clone the code down to a local repository.  Third, install node.js, express.js, mongoose and mongoDB with the command "npm install express mongoose" from a CLI. Fourth, go to the root of the project’s local directory and run “npm init” and "npm install" from a command line prompt. Lastly, type in “npm start” to run the server. 
 
 ## Usage
-This project is used to demonstraite a backend for a social networking website. 
-Walkthrough Video Part 1 - https://watch.screencastify.com/v/xoYZVNdmKxn0df6s3EbU </ br>
-Walkthrough Video Part 2 - 
+This project is used to demonstraite a backend for a social networking website. <br />
+Walkthrough Video Part 1 - https://watch.screencastify.com/v/xoYZVNdmKxn0df6s3EbU <br />
+Walkthrough Video Part 2 - https://watch.screencastify.com/v/qEUYQbkeQybbKMhKJD3G <br />
 
 
 ## License
